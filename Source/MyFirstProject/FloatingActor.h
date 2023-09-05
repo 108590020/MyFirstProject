@@ -10,10 +10,13 @@ UCLASS()
 class MYFIRSTPROJECT_API AFloatingActor : public AActor
 {
 	GENERATED_BODY()
-	
+
 public:	
 	// Sets default values for this actor's properties
 	AFloatingActor();
+
+	UPROPERTY(VisibleAnywhere)
+	UStaticMeshComponent* VisualMesh;
 
 protected:
 	// Called when the game starts or when spawned

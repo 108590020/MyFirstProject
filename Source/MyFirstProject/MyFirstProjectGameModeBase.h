@@ -14,4 +14,5 @@ class MYFIRSTPROJECT_API AMyFirstProjectGameModeBase : public AGameModeBase
 {
 	GENERATED_BODY()
 	
+	virtual void StartPlay() override;
 };
